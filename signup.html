@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login/SignUp Page</title>
+</head>
+<body>
+    <section id="signup">
+    <div class="box">
+    <h1>SIGN UP</h1>
+<form>
+    <fieldset class="name">
+    <span class="first"><label for="first-name" id="first-name"><input type="text" id="first-name" name="first-name" placeholder="First Name" required></label></span>
+    <span class="last"><label for="last-name" id="last-name"><input type="text" id="last-name" name="last-name" placeholder="Last Name" required></label></span>
+    </fieldset>
+    <label for="email" id="email"><input type="email" id="email" name="email" placeholder="Email" required></label>
+    <label for="password" id="password"><input type="password" id="password" name="password" pattern="[a-z0-9]{8,}" placeholder="Password" required></label>
+    <label for="password" id="password"><input type="password" id="password" name="password" pattern="[a-z0-9]{8,}" placeholder="Confirm Password" required></label>
+    <label for="conditions" id="conditions"><input class="inline"  type="checkbox" id="conditions" name="conditions" required> I agree to the terms and conditions</label>
+    <input type="submit" value="SIGN UP">
+</form>
+<p>Already have an account <a href="loginpage.html">Log In</a></p>
+</div>
+</section>
+</body>
+</html>
